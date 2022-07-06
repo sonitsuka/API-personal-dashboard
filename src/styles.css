@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+Perfect Full Page Background Image CSS3
+https://css-tricks.com/perfect-full-page-background-image/#awesome-easy-progressive-css3-way 
+
+Only css version 
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  // Preserve aspet ratio
+  min-width: 100%;
+  min-height: 100%;
+}
+*/
+body {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  color: #eeeeee;
+  text-shadow: 1px 1px 2px #5b5b5b;
+}
+
+main {
+  padding: 1rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1.time {
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+  letter-spacing: 0.3rem;
+  font-size: 4rem;
+  text-align: center;
+}
+
+h4.day {
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  font-weight: 200;
+  margin: 0;
+}
+
+.crypto {
+  font-size: 1rem;
+}
+
+#crypto-name > img {
+  width: 1.8rem;
+}
+
+#crypto-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+#crypto-name > span {
+  margin-left: 10px;
+}
+
+#weather {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-self: flex-start;
+}
+
+#weather > img {
+  width: 70px;
+}
+
+p.weather-city {
+  width: 100%;
+  text-align: right;
+  margin: 0;
+  margin-top: -10px;
+}
+
+p.weather-temp {
+  margin: 0;
+  font-size: 1.7rem;
+  margin-left: -10px;
+}
+
+#author {
+  font-weight: 100;
+  font-size: 0.7rem;
+}
